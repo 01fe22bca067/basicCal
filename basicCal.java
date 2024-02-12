@@ -14,7 +14,12 @@ public class basicCal {
       float division(float op1, float op2) {
             return (op1 / op2);
       }
-
+      float square(float op1) {
+            return (op1*op1);
+      }
+      float cube(float op1) {
+            return (op1* op1*op1);
+      }
       public static void main(String[] args) {
             float op1 = 10;
             float op2 = 5;
@@ -26,6 +31,7 @@ public class basicCal {
             System.out.println("Substraction of two number : " + cal.subtraction(op1, op2));
             System.out.println("Multiplication of two number : " + cal.multiplication(op1, op2));
             System.out.println("Division of two number : " + cal.division(op1, op2));
-            
+            System.out.println("Square of number : " + cal.square(op1));
+            System.out.println("Cube of number : " + cal.cube(op1));
       }
 }
